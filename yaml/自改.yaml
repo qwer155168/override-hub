@@ -18,8 +18,6 @@ function main(config) {
     },
     {
       icon: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/icon/game.png"，
-      "include-all": true,
-      "exclude-filter": "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
       name: "GAME",
       type: "select",
       proxies: ["SG AUTO", "JP AUTO", "US AUTO", "DIRECT"],

@@ -201,21 +201,21 @@ function main(config) {
       format: "yaml",
       type: "http",
     },
-    SteamCN:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/SteamCN.list
-    path: ./ruleset/SteamCN.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
+    SteamCN: {
+    url: "https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/SteamCN.list",
+    path: "./ruleset/SteamCN.list",
+    behavior: "classical",
+    interval: 86400,
+    format: "list",
+    type: "http",
     },
-    GAME:
-    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/ea.mrs
-    path: ./ruleset/GAME.mrs
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
+    GAME: {
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/ea.mrs",
+    path: "./ruleset/GAME.mrs",
+    behavior: "classical",
+    interval: 86400,
+    format: "mrs",
+    type: "http",
      },
   });
 
